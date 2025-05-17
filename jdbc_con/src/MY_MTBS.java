@@ -44,7 +44,7 @@ public class MY_MTBS{
             Class.forName("com.mysql.cj.jdbc.Driver");
             String url = "jdbc:mysql://localhost:3300/db";
             String username = "root";
-            String password = "aadigandhi@2210";
+            String password = "11111";
     
             Connection con1 = DriverManager.getConnection(url, username, password);
     
@@ -508,7 +508,7 @@ public static final String ANSI_BLUE_BACKGROUND = "\u001B[44m";
                        System.out.println(ANSI_BLUE+"\t\t\t\t\t--------------------------------------------"+ANSI_RESET);
                        System.out.println(ANSI_BLUE+"\t\t\t\t\t\tTHANK YOU FOR USING MTBS....!!!!"+ANSI_RESET);
                        System.out.println(ANSI_BLUE+"\t\t\t\t\t\tDEVELOPED BY:--"+ANSI_RESET);
-                       System.out.println(ANSI_BLUE+"\t\t\t\t\t\tAADITYA GANDHI & AYUSH DAVRA"+ANSI_RESET);
+                       System.out.println(ANSI_BLUE+"\t\t\t\t\t\tAADITYA GANDHI"+ANSI_RESET);
                        System.out.println(ANSI_BLUE+"\t\t\t\t\t--------------------------------------------\n\n\n"+ANSI_RESET); 
                        
                        break;
